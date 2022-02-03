@@ -14,8 +14,7 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://assets-global.website-files.com/6005fac27a49a9cd477afb63/6057684e5923ad2ae43c8150_bavassano_homepage_before.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ), /**/
       ),
